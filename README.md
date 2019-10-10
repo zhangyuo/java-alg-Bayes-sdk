@@ -43,3 +43,14 @@ com.zy.alg.service.NaiveBayes.modelTrainer;
      * @param outputModelPath
      */
     void modelTrainer(List<CategoryCorpusInfo> trainData, String categoryTagFile, String outputModelPath);
+
+2、朴素贝叶斯模型分类器
+com.zy.alg.service.NaiveBayes.modelClassier;
+    /**
+     * 朴素贝叶斯模型分类器
+     *
+     * @param title   测试文本主题
+     * @param content 测试文本内容
+     * @param count   返回类目数
+     * @return 识别类目与权值
+     */
