@@ -45,7 +45,9 @@ com.zy.alg.service.NaiveBayes.modelTrainer;
     void modelTrainer(List<CategoryCorpusInfo> trainData, String categoryTagFile, String outputModelPath);
 
 2、朴素贝叶斯模型分类器
+
 com.zy.alg.service.NaiveBayes.modelClassier;
+
     /**
      * 朴素贝叶斯模型分类器
      *
